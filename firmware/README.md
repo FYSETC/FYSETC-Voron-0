@@ -18,7 +18,7 @@ stm32flash -w klipper.bin -v -i rts,-dtr,dtr /dev/ttyUSB0
 
 ### klipper.hex
 
-This is our pre-build firmware in hex format, you can flash it in windows system. Remember to connect your PC with usb cable to Cheetah.
+This is our pre-build firmware in hex format, you can flash it in windows system. 
 
 You can follow the following steps to upload the bootloader.
 
