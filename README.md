@@ -1,3 +1,55 @@
-# FYSETC-Voron-0
-FYSETC Voron 0 kit is base on `Voron-0.1`. 
+# FYSETC-Voron-0.1
+This is a project from the VORON community, VORON 0.1. We made a little upgrade and improvement on the basis of this project, and provided a complete set of information. Thanks to the open source materials and support provided by the VORON community, and hope you like it.
 
+![](VORON01.jpg)
+
+
+
+1.VORON 0.1 Official website：
+https://vorondesign.com/voron0.1
+
+2.VORON 0.1 Github Official website：
+https://github.com/VoronDesign/Voron-0
+
+2.FYSETC VORON 0.1 STL update part 2021.07.22
+
+Why update: The official original found during the test that 1.[a]_Cowling_dragon_x1 fan is difficult to install; 2.[a]_Mid_Body_x1 feed hole is too small; 3.Strain_Relief_Spacers_x2 motor uses 20 height; 4.Door_Handle_x1 handle The glue won't stick.
+1.[a]_Cowling_dragon_x1
+2.[a]_Mid_Body_x1
+3.Strain_Relief_Spacers_x2
+4.Door_Handle_x1
+You can also download the STL file through the following link:
+https://www.thingiverse.com/thing:4914152
+
+
+5.Facebook group：
+https://www.facebook.com/groups/238970713918171
+
+6.Advantage:
+
+1）Using a fully enclosed cabinet design, high-precision finishing anodized custom profile frame, exquisite appearance, can support printing high-temperature consumables, such as: ABS, PC, PEEK, etc.
+
+2）Print surface: high-quality powder PEI steel plate, good adhesion, flexibility, easy to take molds; platform: MIC6 aluminum finishing, flatness up to 0.05, attached to high-temperature soft magnetic, and additionally designed positioning pillars, which can be fast Place the steel plate in place and not easily move.
+
+3）We use 150W genuine brand new Meanwell power supply, which can provide a stable and reliable energy source for the machine and make the machine run more stable. The Raspberry Pi uses TOBSUN 5V 10A DC module for power supply. In addition to providing reliable power for the Raspberry Pi, it also facilitates your other power supply needs, such as cool light strips.
+
+4）The use of all-metal near-long-distance tornado extrusion heads is compatible with the hole positions of the dragon-extruding heads, allowing VORON 0.1 to be assembled in a short-range or long-range mode with the same extrusion head. Equipped with all-metal throat and PTFE straight-through throat, the all-metal throat can print high-temperature consumables, and the PTFE straight-through throat can print conventional consumables, with a smoother surface.
+
+5）Provide a complete set of crimped terminal wires, suitable in length, plug and play, and easy to use.
+
+6）It adopts high-precision anti-rust linear guide, precise position and stable operation
+
+7）Using gates belt, wear-resistant, non-slip, long life.
+
+8）The door handle is fixed with screws, which is more firm and reliable.
+
+9）Imported silicone thermal mattress, high temperature resistance, built-in over-temperature fuse, high power 24V 75W, fast heating.
+
+10）High-quality motors.
+
+11）The use of a 3:1 reduction ratio extruder can increase the extrusion force of the large distance, ensure the smooth and effective extrusion of the consumables, and improve the printing quality.
+
+12）Use Klipper firmware
+Running on Cheetah V1.2b (STM32 + TMC2009) and Raspberry Pi 3B+, it can achieve higher printing speed, provide Web control (via WiFi or Ethernet), can connect to a camera, and can be equipped with a 12864 display screen.
+
+7.Go to buy link ：
