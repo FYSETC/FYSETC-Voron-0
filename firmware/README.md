@@ -32,3 +32,7 @@ You can follow the following steps to upload the bootloader.
 - Click "Port" to select the port of your USB
 - Select `Bootloader-STM32F103.hex` in the `Code File For Online ISP:` edit box. There is bootloader file named `Bootloader-STM32F103.hex` beside this `README` file.
 - At last, click `Start ISP(p)` button to upload the firmware.
+
+### STM32_Mini12864
+
+If you want to install STM32_Mini12864 to the machine, you should update its firmware first. Please follow README in [github](https://github.com/VoronDesign/Voron-Hardware/tree/master/STM32_Mini12864) or [gitee](https://gitee.com/fysetc/Voron-Hardware/tree/master/STM32_Mini12864).
