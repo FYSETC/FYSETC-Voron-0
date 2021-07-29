@@ -33,6 +33,7 @@ You can follow the following steps to upload the bootloader.
 - Select `Bootloader-STM32F103.hex` in the `Code File For Online ISP:` edit box. There is bootloader file named `Bootloader-STM32F103.hex` beside this `README` file.
 - At last, click `Start ISP(p)` button to upload the firmware.
 
-### STM32_Mini12864
+### V0_Display
 
-If you want to install STM32_Mini12864 to the machine, you should update its firmware first. Please follow README in [github](https://github.com/VoronDesign/Voron-Hardware/tree/master/STM32_Mini12864) or [gitee](https://gitee.com/fysetc/Voron-Hardware/tree/master/STM32_Mini12864).
+If you want to install V0_Display to the machine, you should update its firmware first. Please follow `README` in [github](https://gitee.com/fysetc/Voron-Hardware/blob/master/V0_Display/Documentation/Setup_and_Flashing_Guide.md) or [gitee](https://github.com/VoronDesign/Voron-Hardware/blob/master/V0_Display/Documentation/Setup_and_Flashing_Guide.md).
+
