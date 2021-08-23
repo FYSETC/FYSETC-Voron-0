@@ -60,8 +60,6 @@ You can also download these STL files in our `thingiverse` [here](https://www.th
 
 ## 3. Wiring
 
-The wiring diagram is [here](https://github.com/FYSETC/FYSETC-Voron-0/blob/main/FYSETC_VORON_0.1_Wiring.jpg).
-
 ![](FYSETC_VORON_0.1_Wiring.jpg)
 
 ## 4. Firmware
