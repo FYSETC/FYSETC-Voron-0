@@ -58,8 +58,6 @@ So we modify these STLs base on the originals. You can find them in our `github`
 
 You can also download these STL files in our `thingiverse` [here](https://www.thingiverse.com/thing:4914152).
 
-***Note: The kit CANNOT be built with parts from Voron PIF parts program due to changes in .stl files.***
-
 ## 3. Wiring
 
 ![](FYSETC_VORON_0.1_Wiring.jpg)
