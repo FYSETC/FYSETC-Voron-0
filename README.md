@@ -9,7 +9,7 @@ This is a project from the VORON community, VORON 0.1. We made a little upgrade 
 
 ## 1. Kit advantages:
 
-1）Using a fully enclosed cabinet design, high-precision finishing anodized custom profile frame, exquisite appearance, can support printing high-temperature consumables, such as: ABS, PC, PEEK, etc.
+1）Using a fully enclosed cabinet design, high-precision finishing anodized custom profile frame, exquisite appearance, can support printing high-temperature consumables, such as: ABS, PC, etc.
 
 2）Print surface: high-quality powder PEI steel plate, good adhesion, flexibility, easy to take molds; platform: MIC6 aluminum finishing, flatness up to 0.05, attached to high-temperature soft magnetic, and additionally designed positioning pillars, which can be fast Place the steel plate in place and not easily move.
 
@@ -32,7 +32,7 @@ This is a project from the VORON community, VORON 0.1. We made a little upgrade 
 11）The use of a 3:1 reduction ratio extruder can increase the extrusion force of the large distance, ensure the smooth and effective extrusion of the consumables, and improve the printing quality.
 
 12）Use Klipper firmware
-Running on Cheetah V1.2b (STM32 + TMC2009) and Raspberry Pi 3B+, it can achieve higher printing speed, provide Web control (via WiFi or Ethernet), can connect to a camera, and can be equipped with a 12864 display screen.
+Running on Cheetah V1.2b (STM32 + TMC2008) and Raspberry Pi 3B+, it can achieve higher printing speed, provide Web control (via WiFi or Ethernet), can connect to a camera, and can be equipped with a 12864 display screen.
 
 ## 2. Modified STLs (2021.07.22)
 
@@ -57,6 +57,8 @@ So we modify these STLs base on the originals. You can find them in our `github`
 `Door_Handle_x1.stl`: [github](https://github.com/FYSETC/FYSETC-Voron-0/blob/main/STLs/Panel_Mounting/Door_Handle_x1.STL)
 
 You can also download these STL files in our `thingiverse` [here](https://www.thingiverse.com/thing:4914152).
+
+***Note: The kit CANNOT be built with parts from Voron PIF parts program due to changes in .stl files.***
 
 ## 3. Wiring
 
