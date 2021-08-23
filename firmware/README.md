@@ -1,6 +1,12 @@
 # Firmware
 
-We use `Cheetah v1.2` motherboard for our `Voron-0` kit. And we use `Klipper` firmware. You can get the pre-build firmwares and `printer.cfg` files beside this `README` file. 
+We use `Cheetah v1.2` motherboard for our `Voron-0` kit. And we use `Klipper` firmware. You can get the pre-build firmwares and `printer.cfg` files beside this `README` file.  In the kit you should find an sdcard with octopi system flashed.After you build your Voron 0.1 machine, you can insert it to the raspberrypi and power up the machine, the machine should work. Remember to connect ethernet cable to raspberrypi and connect Cheetah board to raspberrypi with USB cable.  
+
+## Klipper compile
+
+We use the following `make menuconfig` below to compile Klipper. You can check more firmware build information in our Cheetah board github page [here](https://github.com/FYSETC/FYSETC-Cheetah#klipper).
+
+![](images/klipper_menuconfig.png)
 
 ## How to flash 
 
@@ -33,7 +39,10 @@ You can follow the following steps to upload the bootloader.
 - Select `Bootloader-STM32F103.hex` in the `Code File For Online ISP:` edit box. There is bootloader file named `Bootloader-STM32F103.hex` beside this `README` file.
 - At last, click `Start ISP(p)` button to upload the firmware.
 
-### V0_Display
+## V0_Display
 
 If you want to install V0_Display to the machine, you should update its firmware first. Please follow `README` in [github](https://gitee.com/fysetc/Voron-Hardware/blob/master/V0_Display/Documentation/Setup_and_Flashing_Guide.md) or [gitee](https://github.com/VoronDesign/Voron-Hardware/blob/master/V0_Display/Documentation/Setup_and_Flashing_Guide.md).
 
+## printer.cfg
+
+We provide you an example `printer.cfg` beside this `README` file.
