@@ -15,7 +15,7 @@ This is a project from the VORON community, VORON 0.1. We made a little upgrade 
 
 3）We use 150W genuine brand new Meanwell power supply, which can provide a stable and reliable energy source for the machine and make the machine run more stable. The Raspberry Pi uses TOBSUN 5V 10A DC module for power supply. In addition to providing reliable power for the Raspberry Pi, it also facilitates your other power supply needs, such as cool light strips.
 
-4）The use of all-metal near-long-distance tornado extrusion heads is compatible with the hole positions of the dragon-extruding heads, allowing VORON 0.1 to be assembled in a short-range or long-range mode with the same extrusion head. Equipped with all-metal throat and PTFE straight-through throat, the all-metal throat can print high-temperature consumables, and the PTFE straight-through throat can print conventional consumables, with a smoother surface.
+4）Tornado hotend, check the features [here](https://github.com/FYSETC/FYSETC-Voron-0/blob/main/Tornado_hotend.md).
 
 5）Provide a complete set of crimped terminal wires, suitable in length, plug and play, and easy to use.
 
