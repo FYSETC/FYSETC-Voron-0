@@ -62,6 +62,8 @@ You can also download these STL files in our `thingiverse` [here](https://www.th
 
 ![](FYSETC_VORON_0.1_Wiring.jpg)
 
+![](Wiring_Sample.jpg)
+
 ## 4. Firmware
 
 You can check firmware `README.md` in `firmware` folder beside this `README.md` file [here](https://github.com/FYSETC/FYSETC-Voron-0/tree/main/firmware). Well we already falshed octopi system (in sdcard) and Cheetah board for you before the kit leave the factory.
