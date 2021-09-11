@@ -62,6 +62,8 @@ You can also download these STL files in our `thingiverse` [here](https://www.th
 
 ![](FYSETC_VORON_0.1_Wiring.jpg)
 
+We make an example wiring for you, but i think you can do a better job than us. Looking forward to yours, you can share it on VORON discord.
+
 ![](Wiring_Sample.jpg)
 
 ## 4. Firmware
