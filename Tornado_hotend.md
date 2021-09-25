@@ -16,6 +16,8 @@
 
 4. 配有全金属和 PTFE 两种喉管，全金属喉管可以打印高温材料，PTFE 喉管用于打印常规耗材，表面更光滑
 
+
+
 1. All metal 
 
    | Parts                                     | Material            |
