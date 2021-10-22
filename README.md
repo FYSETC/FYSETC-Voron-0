@@ -66,16 +66,22 @@ We make an example wiring for you, but i think you can do a better job than us. 
 
 ![](Wiring_Sample.jpg)
 
-## 4. Firmware
+## 4. OctoPi
+
+Account: FYSETC
+
+Password: 12345678
+
+## 5. Firmware
 
 You can check firmware `README.md` in `firmware` folder beside this `README.md` file [here](https://github.com/FYSETC/FYSETC-Voron-0/tree/main/firmware). Well we already falshed octopi system (in sdcard) and Cheetah board for you before the kit leave the factory.
 
-## 5. Community：
+## 6. Community：
 
 [Voron community](https://discord.gg/voron)
 
 [FYSETC Facebook group](https://www.facebook.com/groups/238970713918171)
 
-## 6. Buy link
+## 7. Buy link
 
 [Aliexpress](https://www.aliexpress.com/item/1005003123492072.html)
