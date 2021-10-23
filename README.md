@@ -34,7 +34,11 @@ This is a project from the VORON community, VORON 0.1. We made a little upgrade 
 12）Use Klipper firmware
 Running on Cheetah V1.2b (STM32 + TMC2008) and Raspberry Pi 3B+, it can achieve higher printing speed, provide Web control (via WiFi or Ethernet), can connect to a camera, and can be equipped with a 12864 display screen.
 
-## 2. Modified STLs (2021.07.22)
+## 2. BOM
+
+Check [here](https://github.com/FYSETC/FYSETC-Voron-0/blob/main/BOM.md).
+
+## 3. Modified STLs (2021.07.22)
 
 We update some STLs for the kit. As we found the following issues during the test that 
 
@@ -58,7 +62,7 @@ So we modify these STLs base on the originals. You can find them in our `github`
 
 You can also download these STL files in our `thingiverse` [here](https://www.thingiverse.com/thing:4914152).
 
-## 3. Wiring
+## 4. Wiring
 
 ![](FYSETC_VORON_0.1_Wiring.jpg)
 
@@ -66,22 +70,22 @@ We make an example wiring for you, but i think you can do a better job than us. 
 
 ![](Wiring_Sample.jpg)
 
-## 4. OctoPi
+## 5. OctoPi
 
 Account: FYSETC
 
 Password: 12345678
 
-## 5. Firmware
+## 6. Firmware
 
 You can check firmware `README.md` in `firmware` folder beside this `README.md` file [here](https://github.com/FYSETC/FYSETC-Voron-0/tree/main/firmware). Well we already falshed octopi system (in sdcard) and Cheetah board for you before the kit leave the factory.
 
-## 6. Community：
+## 7. Community：
 
 [Voron community](https://discord.gg/voron)
 
 [FYSETC Facebook group](https://www.facebook.com/groups/238970713918171)
 
-## 7. Buy link
+## 8. Buy link
 
 [Aliexpress](https://www.aliexpress.com/item/1005003123492072.html)
