@@ -12,9 +12,9 @@
 | 6     | Electronics       | FYSETC  cheetah 1.2                                          | 1 PC   |                                     |
 | 7     | Electronics       | Raspberry Pi 3B+                                             | 1 PC   |                                     |
 | 8     | Electronics       | MicroSD Card 8G                                              | 1 PC   |                                     |
-| 9     | Electronics       | NEMA14 Stepper Motor 40Ncm 35HSH7402-24B-400A                | 2 PCS  |                                     |
-| 10    | Electronics       | NEMA17 Stepper Motor (34mm max) with integrated lead screw 200mm T8x8 42HSC1404B-200N8 | 1 PC   |                                     |
-| 11    | Electronics       | NEMA14 36mm round pancake Stepper Motor with 10 tooth spur gear (FYSETC G36HSY4407-6D-550) | 1 PCS  |                                     |
+| 9     | Electronics       | NEMA14 Stepper Motor 40Ncm 35HSH7402-24B-400A(check [here](https://github.com/FYSETC/FYSETC-MOTORS/tree/main/35HSH7402-24B-400A)) | 2 PCS  |                                     |
+| 10    | Electronics       | NEMA17 Stepper Motor (34mm max) with integrated lead screw 200mm T8x8 42HSC1404B-200N8(check [here](https://github.com/FYSETC/FYSETC-MOTORS/tree/main/42HSC1404B-200N8)) | 1 PC   |                                     |
+| 11    | Electronics       | NEMA14 36mm round pancake Stepper Motor with 10 tooth spur gear G36HSY4407-6D-550(check [here](https://github.com/FYSETC/FYSETC-MOTORS/tree/main/G36HSY4407-6D-550)) | 1 PCS  |                                     |
 | 12    | Electronics       | 3010 blower fans 24V                                         | 1 PC   |                                     |
 | 13    | Electronics       | 3007 axial fan 5V (min 3.5CFM)                               | 1 PC   |                                     |
 | 14    | Electronics       | Micro Switch（With wire）                                    | 3 PCS  |                                     |
