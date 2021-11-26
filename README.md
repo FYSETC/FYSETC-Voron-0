@@ -64,11 +64,19 @@ You can also download these STL files in our `thingiverse` [here](https://www.th
 
 ## 4. Wiring
 
+### 4.1 Rev1.0 kit
+
+Following is our Cheetah v1.2 board wiring diagram for VORON 0.1 rev1.0 kit.
+
 ![](FYSETC_VORON_0.1_Wiring.jpg)
 
 We make an example wiring for you, but i think you can do a better job than us. Looking forward to yours, you can share it on VORON discord.
 
 ![](Wiring_Sample.jpg)
+
+### 4.2 Rev1.1 kit
+
+Coming soon...
 
 ## 5. OctoPi
 
