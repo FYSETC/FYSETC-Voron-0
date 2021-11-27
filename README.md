@@ -15,7 +15,7 @@ This is a project from the VORON community, VORON 0.1. We made a little upgrade 
 
 3）We use 150W genuine brand new Meanwell power supply, which can provide a stable and reliable energy source for the machine and make the machine run more stable. The Raspberry Pi uses TOBSUN 5V 10A DC module for power supply. In addition to providing reliable power for the Raspberry Pi, it also facilitates your other power supply needs, such as cool light strips.
 
-4）Tornado hotend, check the features [here](https://github.com/FYSETC/FYSETC-Voron-0/blob/main/Tornado_hotend.md).
+4）Tornado hotend, check the features [here](https://github.com/FYSETC/FYSETC-Voron-0/blob/main/Tornado_hotend.md). (Please installation guide on our [youtube](https://www.youtube.com/watch?v=a5HArBp4h3s))
 
 5）Provide a complete set of crimped terminal wires, suitable in length, plug and play, and easy to use.
 
@@ -32,7 +32,7 @@ This is a project from the VORON community, VORON 0.1. We made a little upgrade 
 11）The use of a 3:1 reduction ratio extruder can increase the extrusion force of the large distance, ensure the smooth and effective extrusion of the consumables, and improve the printing quality.
 
 12）Use Klipper firmware
-Running on Cheetah V1.2b (STM32 + TMC2008) and Raspberry Pi 3B+, it can achieve higher printing speed, provide Web control (via WiFi or Ethernet), can connect to a camera, and can be equipped with a 12864 display screen.
+Running on [Cheetah V1.2b](https://github.com/FYSETC/FYSETC-Cheetah) (On kit rev 1.0) or [Cheetah v2.0](https://github.com/FYSETC/FYSETC-Cheetah-v2) (On kit rev1.1) and Raspberry Pi 3B+, it can achieve higher printing speed, provide Web control (via WiFi or Ethernet), can connect to a camera, and can be equipped with a 12864 display screen.
 
 ## 2. BOM
 
@@ -62,9 +62,19 @@ So we modify these STLs base on the originals. You can find them in our `github`
 
 You can also download these STL files in our `thingiverse` [here](https://www.thingiverse.com/thing:4914152).
 
-## 4. Wiring
+## 4. Installation Guide
 
-### 4.1 Rev1.0 kit
+### 4.1 VORON Assembly manual
+
+Check it [here](https://github.com/VoronDesign/Voron-0/blob/Voron0.1/Manuals/Assembly_Manual_0.1.pdf).
+
+### 4.2 Tornado Hotend installation
+
+Please check it on our [youtube](https://www.youtube.com/watch?v=a5HArBp4h3s).
+
+## 5. Wiring
+
+### 5.1 Rev1.0 kit
 
 Following is our Cheetah v1.2 board wiring diagram for VORON 0.1 rev1.0 kit.
 
@@ -74,26 +84,26 @@ We make an example wiring for you, but i think you can do a better job than us. 
 
 ![](Wiring_Sample.jpg)
 
-### 4.2 Rev1.1 kit
+### 5.2 Rev1.1 kit
 
 Coming soon...
 
-## 5. OctoPi
+## 6. OctoPi
 
 Account: FYSETC
 
 Password: 12345678
 
-## 6. Firmware
+## 7. Firmware
 
 You can check firmware `README.md` in `firmware` folder beside this `README.md` file [here](https://github.com/FYSETC/FYSETC-Voron-0/tree/main/firmware). Well we already falshed octopi system (in sdcard) and Cheetah board for you before the kit leave the factory.
 
-## 7. Community：
+## 8. Community
 
 [Voron community](https://discord.gg/voron)
 
 [FYSETC Facebook group](https://www.facebook.com/groups/238970713918171)
 
-## 8. Buy link
+## 9. Buy link
 
 [Aliexpress](https://www.aliexpress.com/item/1005003123492072.html)
