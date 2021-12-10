@@ -88,22 +88,27 @@ We make an example wiring for you, but i think you can do a better job than us. 
 
 Coming soon...
 
-## 6. OctoPi
+## 6. Firmware&OS
 
+You can check firmware `README.md` in `Firmware&OS` folder beside this `README.md` file [here](https://github.com/FYSETC/FYSETC-Voron-0/tree/main/Firmware&OS). Well we already flashed octopi system (on sdcard) and Klipper firmware on Cheetah board for you before the kit leave the factory.
+
+### 6.1 OctoPi
+
+We provide a SD card with OctoPi OS installed. You can login in with the following account and password.
+
+```
 Account: FYSETC
-
 Password: 12345678
+```
 
-## 7. Firmware
+Also we provide you Octopi OS system image for you, please check the `README` in `Firmware&OS` folder.
 
-You can check firmware `README.md` in `firmware` folder beside this `README.md` file [here](https://github.com/FYSETC/FYSETC-Voron-0/tree/main/firmware). Well we already falshed octopi system (in sdcard) and Cheetah board for you before the kit leave the factory.
-
-## 8. Community
+## 7. Community
 
 [Voron community](https://discord.gg/voron)
 
 [FYSETC Facebook group](https://www.facebook.com/groups/238970713918171)
 
-## 9. Buy link
+## 8. Buy link
 
 [Aliexpress](https://www.aliexpress.com/item/1005003123492072.html)
