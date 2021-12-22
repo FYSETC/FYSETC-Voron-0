@@ -81,11 +81,18 @@ Before flash, you need an SD card , minimum requirement of SD card capacity is 8
 
 ### 2.2 OctoPi
 
-You can login in with the following account and password.
+You can login in Octoprint with the following account and password.
 
 ```
 Account: FYSETC
 Password: 12345678
+```
+
+OS SSH account and password
+
+```
+Account: pi
+Password: raspberry
 ```
 
 ## 3. V0_Display

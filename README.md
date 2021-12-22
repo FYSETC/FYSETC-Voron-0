@@ -96,7 +96,7 @@ You can check firmware `README.md` in `Firmware&OS` folder beside this `README.m
 
 ### 6.1 OctoPi
 
-We provide a SD card with OctoPi OS installed. You can login in with the following account and password.
+We provide a SD card with OctoPi OS installed. You can login in Octoprint with the following account and password.
 
 ```
 Account: FYSETC
@@ -104,6 +104,13 @@ Password: 12345678
 ```
 
 Also we provide you Octopi OS system image for you, please check the `README` in `Firmware&OS` folder.
+
+OS SSH account and password
+
+```
+Account: pi
+Password: raspberry
+```
 
 ## 7. Community
 
