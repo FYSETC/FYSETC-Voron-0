@@ -2,21 +2,23 @@
 
 ## 1. Firmware
 
-We use `Cheetah v1.2` motherboard ([github](https://github.com/FYSETC/FYSETC-Cheetah)) for our `Voron-0` kit. And we use `Klipper` firmware. You can get the pre-build firmwares and `printer.cfg` files beside this `README` file.  In the kit you should find an sdcard with octopi system flashed. After you build your Voron 0.1 machine, you can insert it to the raspberrypi and power up the machine, the machine should work. Remember to connect ethernet cable to raspberrypi and connect Cheetah board to raspberrypi with USB cable.  
+### 1.1 Rev 1.0
 
-### 1.1 Klipper compile
+We use `Cheetah v1.2` motherboard ([github](https://github.com/FYSETC/FYSETC-Cheetah)) for our `Voron-0` rev1.0 kit. And we use `Klipper` firmware. You can get the pre-build firmwares and `printer.cfg` files in folder `rev1.0` next to this `README` file.  In the kit you should find an sdcard with octopi system flashed. After you build your Voron 0.1 machine, you can insert it to the raspberrypi and power up the machine, the machine should work. Remember to connect ethernet cable to raspberrypi and connect Cheetah board to raspberrypi with USB cable.  
+
+#### 1.1.1 Klipper compile
 
 We use the following `make menuconfig` below to compile Klipper. You can check more firmware build information in our Cheetah board github page [here](https://github.com/FYSETC/FYSETC-Cheetah#klipper).
 
 ![](images/klipper_menuconfig.png)
 
-### 1.2 How to flash 
+#### 1.1.2 How to flash 
 
 Well, i don't recommend you to use our pre-build firmwares as klipper firmware always update. I recommend you to compile klipper yours, follow it [here](https://www.klipper3d.org/Installation.html). The prebuild firmwares below just for beginners.
 
 You should power up Cheetah board with 12v/24v power supply first.
 
-#### klipper.bin
+##### klipper.bin
 
 If you use our pre-build `klipper.bin` firmware, you can flash the firmware with the command below. This command is also for those who compile klipper yourself, but you need to `cd ~/klpper/out` first. Remember to connect RaspberryPi with usb cable to Cheetah.
 
@@ -24,7 +26,7 @@ If you use our pre-build `klipper.bin` firmware, you can flash the firmware with
 stm32flash -w klipper.bin -v -i rts,-dtr,dtr /dev/ttyUSB0
 ```
 
-#### klipper.hex
+##### klipper.hex
 
 This is our pre-build firmware in hex format, you can flash it in windows system. 
 
@@ -41,9 +43,33 @@ You can follow the following steps to upload the bootloader.
 - Select `Bootloader-STM32F103.hex` in the `Code File For Online ISP:` edit box. There is bootloader file named `Bootloader-STM32F103.hex` beside this `README` file.
 - At last, click `Start ISP(p)` button to upload the firmware.
 
-### 1.3 printer.cfg
+#### 1.1.3 printer.cfg
 
-We provide you an example `printer.cfg` beside this `README` file.
+We provide you an example `printer.cfg` in folder `rev1.0` beside this `README` file.
+
+### 1.2 Rev 1.1
+
+We use `Cheetah v2.0` motherboard ([github](https://github.com/FYSETC/FYSETC-Cheetah)) for our `Voron-0` rev1.1 kit. And we use `Klipper` firmware. You can get the pre-build firmwares and `printer.cfg` files in `rev1.1` beside this `README` file.  In the kit you should find an sdcard with octopi system flashed. After you build your Voron 0.1 machine, you can insert it to the raspberrypi and power up the machine, the machine should work. Remember to connect ethernet cable to raspberrypi and connect Cheetah board to raspberrypi with USB cable.  
+
+#### 1.2.1 Klipper compile
+
+We use the following `make menuconfig` below to compile Klipper. You can check more firmware build information in our Cheetah v2 board github page [here](https://github.com/FYSETC/FYSETC-Cheetah-v2#52-klipper).
+
+![](images/menuconfig.png)
+
+#### 1.2.2 How to flash 
+
+Well, i don't recommend you to use our pre-build firmwares as klipper firmware always update. I recommend you to compile klipper yours, follow it [here](https://www.klipper3d.org/Installation.html). The prebuild firmwares below just for beginners.
+
+##### klipper.hex
+
+This is our pre-build firmware in hex format, you can follow the instruction [here](https://github.com/FYSETC/FYSETC-Cheetah-v2#533-upload-the-firmwarewindows-dfu) to flash it. 
+
+*It is hex file, you don't need to set `Start address` option when using STM32CubeProgrammer.*
+
+#### 1.2.3 printer.cfg
+
+We provide you an example `printer.cfg` in folder `rev1.1` beside this `README` file.
 
 ## 2. Octopi OS
 
@@ -52,6 +78,15 @@ In the kit, you should find an sdcard pre-flashed Octopi system. We also provide
 ### 2.1 how to flash
 
 Before flash, you need an SD card , minimum requirement of SD card capacity is 8G. Please prepare that first. And then you can use this software [here](https://www.balena.io/etcher/) to install. Well that are so many OS flash tool that you can use. And there are a lot of tutorial if you google `how to flash os image`.
+
+### 2.2 OctoPi
+
+You can login in with the following account and password.
+
+```
+Account: FYSETC
+Password: 12345678
+```
 
 ## 3. V0_Display
 

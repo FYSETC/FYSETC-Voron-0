@@ -78,7 +78,7 @@ Please check it on our [youtube](https://www.youtube.com/watch?v=a5HArBp4h3s).
 
 Following is our Cheetah v1.2 board wiring diagram for VORON 0.1 rev1.0 kit.
 
-![](FYSETC_VORON_0.1_Wiring.jpg)
+![](FYSETC_VORON0.1_rev1.0_Wiring.jpg)
 
 We make an example wiring for you, but i think you can do a better job than us. Looking forward to yours, you can share it on VORON discord.
 
@@ -86,7 +86,9 @@ We make an example wiring for you, but i think you can do a better job than us. 
 
 ### 5.2 Rev1.1 kit
 
-Coming soon...
+Following is our Cheetah v2.0 board wiring diagram for VORON 0.1 rev1.1 kit.
+
+![](FYSETC_VORON0.1_rev1.1_Wiring.jpg)
 
 ## 6. Firmware&OS
 
