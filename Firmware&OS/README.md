@@ -12,7 +12,7 @@ We use the following `make menuconfig` below to compile Klipper. You can check m
 
 ![](images/klipper_menuconfig.png)
 
-#### 1.1.2 How to flash 
+#### 1.1.2 How to flash firmware
 
 Well, i don't recommend you to use our pre-build firmwares as klipper firmware always update. I recommend you to compile klipper yours, follow it [here](https://www.klipper3d.org/Installation.html). The prebuild firmwares below just for beginners.
 
@@ -49,37 +49,53 @@ We provide you an example `printer.cfg` in folder `rev1.0` beside this `README` 
 
 ### 1.2 Rev 1.1
 
-We use `Cheetah v2.0` motherboard ([github](https://github.com/FYSETC/FYSETC-Cheetah)) for our `Voron-0` rev1.1 kit. And we use `Klipper` firmware. You can get the pre-build firmwares and `printer.cfg` files in `rev1.1` beside this `README` file.  In the kit you should find an sdcard with octopi system flashed. After you build your Voron 0.1 machine, you can insert it to the raspberrypi and power up the machine, the machine should work. Remember to connect ethernet cable to raspberrypi and connect Cheetah board to raspberrypi with USB cable.  
+We use `Cheetah v2.0` motherboard ([github](https://github.com/FYSETC/FYSETC-Cheetah)) for our `Voron-0` rev1.1 kit. And we use `Klipper` firmware. You can get the pre-build firmwares and `printer.cfg` files in `rev1.1` beside this `README` file.  
 
 #### 1.2.1 Klipper compile
 
 We use the following `make menuconfig` below to compile Klipper. You can check more firmware build information in our Cheetah v2 board github page [here](https://github.com/FYSETC/FYSETC-Cheetah-v2#52-klipper).
 
-![](images/menuconfig.png)
+![](images/menuconfig_c2.png)
 
-#### 1.2.2 How to flash 
+#### 1.2.2 How to flash firmware
 
-Well, i don't recommend you to use our pre-build firmwares as klipper firmware always update. I recommend you to compile klipper yours, follow it [here](https://www.klipper3d.org/Installation.html). The prebuild firmwares below just for beginners.
+Well, i don't recommend you to use our pre-build firmwares as klipper firmware always update. I recommend you to compile klipper yourself, follow it [here](https://www.klipper3d.org/Installation.html). The pre-build firmwares below just for beginners.
 
 ##### klipper.hex
 
-This is our pre-build firmware in hex format, you can follow the instruction [here](https://github.com/FYSETC/FYSETC-Cheetah-v2#533-upload-the-firmwarewindows-dfu) to flash it. 
+This is our pre-build firmware hex format, follow the instruction [here](https://github.com/FYSETC/FYSETC-Cheetah-v2#533-upload-the-firmwarewindows-dfu) to flash it.
 
-*It is hex file, you don't need to set `Start address` option when using STM32CubeProgrammer.*
+*Note: It is hex file, you don't need to set `Start address` option when using STM32CubeProgrammer.*
+
+Check the klipper version below
+
+![](images/version_klipper.png)
+
+##### klipper.bin
+
+32k offset firmware, use the command below to upload the firmware (linux based OS).
+
+```
+dfu-util -R -a 0 -s 0x08008000:leave -D klipper.bin
+```
 
 #### 1.2.3 printer.cfg
 
 We provide you an example `printer.cfg` in folder `rev1.1` beside this `README` file.
 
-## 2. Octopi OS
+## 2. OS
 
-In the kit, you should find an sdcard pre-flashed Octopi system. We also provide you this Octopi system image for you. If your kit version is rev1.0, then your cheetah board version is 1.2, you can get the responding Octopi system here([1.Dropbox](https://www.dropbox.com/s/o599ni65a6fd2by/voron0.1-cheetah1.2-octopi0.18-octoprint1.6.1-klipper-final.img?dl=0) [2.百度云盘](https://pan.baidu.com/s/1epDDUFP4t6gNax9Bxs07-w) 提取码：1357) . If your kit version is rev1.1, then your cheetah board version is 2.0, and you can get the responding Octopi system here([1.Dropbox](https://www.dropbox.com/s/smtbososhue4zym/voron0.1-cheetah2.0-octopi0.18-octoprint1.7.2-klipper.img?dl=0) [2.百度云盘](https://pan.baidu.com/s/12OQ6AqPryXO6TYDF16cSlw ) 提取码：YYDS).
+We provide you two OS images choices: Mainsail OS and Octopi OS.
 
-### 2.1 how to flash
+### 2.1 Mainsail OS
 
-Before flash, you need an SD card , minimum requirement of SD card capacity is 8G. Please prepare that first. And then you can use this software [here](https://www.balena.io/etcher/) to install. Well that are so many OS flash tool that you can use. And there are a lot of tutorial if you google `how to flash os image`.
+This OS image is only for kit rev1.1 and later, you can get the corresponding Mainsail OS here([1.Dropbox](https://www.dropbox.com/s/669lq3r6z1t4mzo/voron0.1_rpi_cheetah2.0_mainsail.zip?dl=0) [2.百度云盘](https://pan.baidu.com/s/1RYXrs2E_AEZvYQI9CqWZ3w) 提取码：9527) .
 
-### 2.2 OctoPi
+![](images/versions.png)
+
+### 2.2 Octopi OS
+
+If your kit version is rev1.0, then your cheetah board version is 1.2, you can get the corresponding Octopi OS here([1.Dropbox](https://www.dropbox.com/s/o599ni65a6fd2by/voron0.1-cheetah1.2-octopi0.18-octoprint1.6.1-klipper-final.img?dl=0) [2.百度云盘](https://pan.baidu.com/s/1epDDUFP4t6gNax9Bxs07-w) 提取码：1357) . If your kit version is rev1.1, then your cheetah board version is 2.0, and you can get the corresponding Octopi  OS image here([1.Dropbox](https://www.dropbox.com/s/smtbososhue4zym/voron0.1-cheetah2.0-octopi0.18-octoprint1.7.2-klipper.img?dl=0) [2.百度云盘](https://pan.baidu.com/s/12OQ6AqPryXO6TYDF16cSlw ) 提取码：YYDS).
 
 You can login in Octoprint with the following account and password.
 
@@ -87,6 +103,12 @@ You can login in Octoprint with the following account and password.
 Account: FYSETC
 Password: 12345678
 ```
+
+### 2.3 How to flash OS image
+
+Before flash, you need an SD card , minimum requirement of SD card capacity is 8G. Please prepare that first. And then you can use this software [here](https://www.balena.io/etcher/) to install. Well that are so many OS flash tool that you can use. And there are a lot of tutorial if you google `how to flash os image`.
+
+### 2.4 SSH account and password
 
 OS SSH account and password
 
