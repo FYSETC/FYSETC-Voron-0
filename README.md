@@ -1,37 +1,38 @@
 # FYSETC-Voron-0.1
+
 This is a project from the VORON community, VORON 0.1. We made a little upgrade and improvement on the basis of this project, and provided a complete set of information. Thanks to the open source materials and support provided by the VORON community, and hope you like it. You can find Voron official information below.
 
-1.VORON 0.1 Official websiteï¼šhttps://vorondesign.com/voron0.1
+1.VORON 0.1 Official website?¼šhttps://vorondesign.com/voron0.1
 
-2.VORON 0.1 Official Githubï¼šhttps://github.com/VoronDesign/Voron-0
+2.VORON 0.1 Official Github?¼šhttps://github.com/VoronDesign/Voron-0
 
 ![](VORON01.jpg)
 
 ## 1. Kit advantages:
 
-1ï¼‰Using a fully enclosed cabinet design, high-precision finishing anodized custom profile frame, exquisite appearance, can support printing high-temperature consumables, such as: ABS, PC, etc.
+1?¼‰Using a fully enclosed cabinet design, high-precision finishing anodized custom profile frame, exquisite appearance, can support printing high-temperature consumables, such as: ABS, PC, etc.
 
-2ï¼‰Print surface: high-quality powder PEI steel plate, good adhesion, flexibility, easy to take molds; platform: MIC6 aluminum finishing, flatness up to 0.05, attached to high-temperature soft magnetic, and additionally designed positioning pillars, which can be fast Place the steel plate in place and not easily move.
+2?¼‰Print surface: high-quality powder PEI steel plate, good adhesion, flexibility, easy to take molds; platform: MIC6 aluminum finishing, flatness up to 0.05, attached to high-temperature soft magnetic, and additionally designed positioning pillars, which can be fast Place the steel plate in place and not easily move.
 
-3ï¼‰We use 150W genuine brand new Meanwell power supply, which can provide a stable and reliable energy source for the machine and make the machine run more stable. The Raspberry Pi uses TOBSUN 5V 10A DC module for power supply. In addition to providing reliable power for the Raspberry Pi, it also facilitates your other power supply needs, such as cool light strips.
+3?¼‰We use 150W genuine brand new Meanwell power supply, which can provide a stable and reliable energy source for the machine and make the machine run more stable. The Raspberry Pi uses TOBSUN 5V 10A DC module for power supply. In addition to providing reliable power for the Raspberry Pi, it also facilitates your other power supply needs, such as cool light strips.
 
-4ï¼‰Tornado hotend, check the features [here](https://github.com/FYSETC/FYSETC-Voron-0/blob/main/Tornado_hotend.md). (Please installation guide on our [youtube](https://www.youtube.com/watch?v=a5HArBp4h3s))
+4?¼‰Tornado hotend, check the features [here](https://github.com/FYSETC/FYSETC-Voron-0/blob/main/Tornado_hotend.md). (Please installation guide on our [youtube](https://www.youtube.com/watch?v=a5HArBp4h3s))
 
-5ï¼‰Provide a complete set of crimped terminal wires, suitable in length, plug and play, and easy to use.
+5?¼‰Provide a complete set of crimped terminal wires, suitable in length, plug and play, and easy to use.
 
-6ï¼‰It adopts high-precision anti-rust linear guide, precise position and stable operation
+6?¼‰It adopts high-precision anti-rust linear guide, precise position and stable operation
 
-7ï¼‰Using gates belt, wear-resistant, non-slip, long life.
+7?¼‰Using gates belt, wear-resistant, non-slip, long life.
 
-8ï¼‰The door handle is fixed with screws, which is more firm and reliable.
+8?¼‰The door handle is fixed with screws, which is more firm and reliable.
 
-9ï¼‰Imported silicone thermal mattress, high temperature resistance, built-in over-temperature fuse, high power 24V 75W, fast heating.
+9?¼‰Imported silicone thermal mattress, high temperature resistance, built-in over-temperature fuse, high power 24V 75W, fast heating.
 
-10ï¼‰High-quality motors.
+10?¼‰High-quality motors.
 
-11ï¼‰The use of a 3:1 reduction ratio extruder can increase the extrusion force of the large distance, ensure the smooth and effective extrusion of the consumables, and improve the printing quality.
+11?¼‰The use of a 3:1 reduction ratio extruder can increase the extrusion force of the large distance, ensure the smooth and effective extrusion of the consumables, and improve the printing quality.
 
-12ï¼‰Use Klipper firmware
+12?¼‰Use Klipper firmware
 Running on [Cheetah V1.2b](https://github.com/FYSETC/FYSETC-Cheetah) (On kit rev 1.0) or [Cheetah v2.0](https://github.com/FYSETC/FYSETC-Cheetah-v2) (On kit rev1.1) and Raspberry Pi 3B+, it can achieve higher printing speed, provide Web control (via WiFi or Ethernet), can connect to a camera, and can be equipped with a 12864 display screen.
 
 ## 2. BOM
@@ -92,25 +93,7 @@ Following is our Cheetah v2.0 board wiring diagram for VORON 0.1 rev1.1 kit.
 
 ## 6. Firmware&OS
 
-You can check firmware `README.md` in `Firmware&OS` folder beside this `README.md` file [here](https://github.com/FYSETC/FYSETC-Voron-0/tree/main/Firmware&OS). Well we already flashed octopi system (on sdcard) and Klipper firmware on Cheetah board for you before the kit leave the factory.
-
-### 6.1 OctoPi
-
-We provide a SD card with OctoPi OS installed. You can login in Octoprint with the following account and password.
-
-```
-Account: FYSETC
-Password: 12345678
-```
-
-Also we provide you Octopi OS system image for you, please check the `README` in `Firmware&OS` folder.
-
-OS SSH account and password
-
-```
-Account: pi
-Password: raspberry
-```
+You can check `README.md` in `Firmware&OS` folder beside this `README.md` file [here](https://github.com/FYSETC/FYSETC-Voron-0/tree/main/Firmware&OS). Well we already flashed OS system (on sdcard) and Klipper firmware on Cheetah board for you before the kit leave the factory.
 
 ## 7. Community
 
